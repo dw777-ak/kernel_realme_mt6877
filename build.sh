@@ -27,7 +27,7 @@ else
 	
 fi
 
-make O=out ARCH=arm64 RM6877_defconfig
+make O=out ARCH=arm64 RMX3687_config
 
 PATH="${PWD}/clang/bin:${PATH}:${PWD}/clang/bin:${PATH}:${PWD}/clang/bin:${PATH}" \
 PATH="${PWD}/clang/bin:${PATH}:${PWD}/los-4.9-32/bin:${PATH}:${PWD}/los-4.9-64/bin:${PATH}" \
